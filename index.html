@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <title>Canvas Test</title>
+</head>
+
+
+<body onload="onLoad()">
+    
+    <div class="actionsSection">
+        <p id="instruction">Insert rectangle values below</p>
+        <input class="values" type="number" id="x" placeholder="X" value="">
+        <input class="values" type="number" id="y" placeholder="Y" value="">
+        <input class="values" type="number" id="width" placeholder="Width" value="">
+        <input class="values" type="number" id="height" placeholder="Height" value="">
+        
+        <label id="squareArea" for="Square area">Square area: </label>
+        
+        <input class="btn" type="button" id="calculate" value="Calculate" onclick="calculateRect()">
+        <input class="btn" type="button" id="clear" value="Clear Canvas" onclick="clearCanvas()">
+        <input class="btn" type="button" id="draw" value="Draw" onclick="drawClickPosition()">
+    </div>
+
+
+    <div class="canvasSection">
+        <canvas id="canvas"></canvas>
+        <div id="canvasSize"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

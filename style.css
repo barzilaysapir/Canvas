@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Syne Mono', monospace;
+}
+
+body {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#instruction {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.values {
+    display: flex;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    padding: .3rem;
+    border: 2px solid white;
+    color: #333;
+    background-color: rgb(235, 235, 235);
+    transition: all 0.2s ease;
+}
+
+.values:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.btn {
+    /* settings */
+    margin-top: 1rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    /* styling */
+    color: #fff;
+    font-size: 1.5rem;
+    width: 15rem;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    color: #333;
+}
+
+#calculate {
+    background-color: #e5989b;
+}
+
+#clear {
+    background-color: #b5838d;
+}
+
+#draw {
+    background-color: #6d6875;
+}
+
+#canvas {
+    margin: 2rem 5rem;
+    border: 2px solid #6d6875;
+    background-color: rgba(243, 243, 243, 0.733);
+}
+
+.canvasSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
