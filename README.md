@@ -1,2 +1,4 @@
-# Canvas
-HTML, CSS, JS - Canvas
+# Canvas 👩‍🎨
+HTML, CSS, JS.
+
+https://barzilaysapir.github.io/Canvas/
